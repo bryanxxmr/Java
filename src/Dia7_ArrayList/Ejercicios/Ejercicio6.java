@@ -8,12 +8,15 @@ public class Ejercicio6 {
         //contengan la letra 'e'. Al final imprime el ArrayList resultante.
         ArrayList<String> filtrados = new ArrayList<>();
         String[] todos = {"chrome", "firefox", "edge", "safari", "brave"};
+        System.out.println("Navegadores con letra e: ");
+        int i=0;
         for (String recorrido : todos)
         {
             if (recorrido.contains("e"))
             {
                 filtrados.add(recorrido);
-                System.out.println(recorrido);
+                System.out.println("-> " + filtrados.get(i));
+                i++;
             }
         }
     }
