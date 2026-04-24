@@ -17,5 +17,7 @@ public class Ejercicio3 {
                 System.out.println("El usuario tester existe: " + usuarios.contains("tester"));
             }
         }
+
+        //Solucion sin el for System.out.println("El usuario tester existe: " + usuarios.contains("tester"));
     }
 }

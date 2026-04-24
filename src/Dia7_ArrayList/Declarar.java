@@ -9,5 +9,10 @@ public class Declarar {
         navegadores.add("firefox");
         navegadores.add("safari");
         navegadores.add("edge");
+
+        for(String recorrido: navegadores)
+        {
+            System.out.println(recorrido);
+        }
     }
 }

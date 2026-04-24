@@ -18,16 +18,16 @@ public class Ejercicio5 {
         {
             if (respuesta.get(i).equals(true))
             {
-                System.out.println("Prueba " + (i+1) + " PASO");
+                System.out.println("Prueba " + (i+1) + ": PASO");
                 contadorPaso = contadorPaso + 1;
             }
             else {
-                System.out.println("Prueba " + (i + 1) + " FALLO");
+                System.out.println("Prueba " + (i + 1) + ": FALLO");
                 contadorFallido = contadorFallido + 1;
             }
         }
         System.out.println("-------------------");
         System.out.println("Total PASO: " + contadorPaso);
-        System.out.println("Total PASO: " + contadorFallido);
+        System.out.println("Total FALLO: " + contadorFallido);
     }
 }
